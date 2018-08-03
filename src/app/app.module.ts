@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GlobalNavComponent } from './shared/global-nav/global-nav.component';
+import { SummaryComponent } from './modules/summary/summary.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GlobalNavComponent,
+    SummaryComponent
   ],
   imports: [
     BrowserModule,
